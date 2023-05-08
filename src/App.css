@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  padding: 1rem;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: orange;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.prevent-click {
+  pointer-events: none;
+}
